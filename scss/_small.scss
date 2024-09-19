@@ -85,14 +85,14 @@ main {
   }
   p {
     padding: 0.5rem $gutter;
-    color: #333;
+    color: black;
     line-height: $leading;
   }
 } // end main
 .allCards {
   padding: 0 $gutter;
   section {
-    border: 1px solid #333;
+    border: 1px solid black;
     border-radius: 8px;
     overflow: hidden;
     margin: 1rem 0;
@@ -125,7 +125,7 @@ main {
       text-align: center;
       margin: 0 3rem 1rem 3rem;
       border-radius: 8px;
-      color: $greyColor;
+      color: black;
       text-decoration: none;
     }
   }
@@ -138,17 +138,15 @@ main {
 
 footer {
   padding: 1rem $gutter;
-  color: $greyColor;
+  color: black;
   text-align: center;
   line-height: $leading;
   a {
-    color: $greyColor;
+    color: black;
     text-decoration: none;
     &:hover{
         color: $secondaryColor;
       }
-  }
-  section {
   }
   .contact {
     p {
